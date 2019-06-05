@@ -15,7 +15,7 @@ namespace MastermindExercise
             Console.WriteLine("- Nothing (_) will be printed for incorrect digits.");
             Console.WriteLine();
 
-            int randomNum = GenerateRandomNumber(0, 6);
+            int randomNum = GenerateRandomNumber(1, 6);
 
             int allowedGuesses = 11;
             int numberOfGuesses = 1;
